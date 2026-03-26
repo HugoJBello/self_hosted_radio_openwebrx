@@ -5,8 +5,8 @@
     "receiver_asl": 200,
     "receiver_admin": "example@example.com",
     "receiver_gps": {
-        "lat": 47.0,
-        "lon": 19.0
+        "lat": 41.0,
+        "lon": -2.0
     },
     "photo_title": "Panorama of Budapest from Sch\u00f6nherz Zolt\u00e1n Dormitory",
     "photo_desc": "",
@@ -42,7 +42,7 @@
                     "center_freq": 438800000,
                     "rf_gain": 29,
                     "samp_rate": 2400000,
-                    "start_freq": 439275000,
+                    "start_freq": 438275000,
                     "start_mod": "nfm"
                 },
                 "2m": {
@@ -59,6 +59,20 @@
                     "samp_rate": 2000000,
                     "start_freq": 90000000,
                     "start_mod": "wfm"
+                },
+                "e87e4d3d-69b2-4595-94d4-3b3344625b7d": {
+                    "name": "air",
+                    "center_freq": 136000000,
+                    "samp_rate": 2000000,
+                    "start_freq": 130000000,
+                    "start_mod": "am"
+                },
+                "a3c79f04-c38c-468e-b63b-df0d895ccbb9": {
+                    "name": "70cm 2",
+                    "center_freq": 446000000,
+                    "samp_rate": 2000000,
+                    "start_freq": 440,
+                    "start_mod": "nfm"
                 }
             }
         },
