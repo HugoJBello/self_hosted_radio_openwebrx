@@ -61,8 +61,8 @@
                     "start_mod": "wfm"
                 },
                 "e87e4d3d-69b2-4595-94d4-3b3344625b7d": {
-                    "name": "air",
-                    "center_freq": 136000000,
+                    "name": "air 1",
+                    "center_freq": 135000000,
                     "samp_rate": 2000000,
                     "start_freq": 130000000,
                     "start_mod": "am"
@@ -73,6 +73,13 @@
                     "samp_rate": 2000000,
                     "start_freq": 440,
                     "start_mod": "nfm"
+                },
+                "7fc5dd35-55fb-4699-8a42-a5d3eba054c2": {
+                    "name": "air 2",
+                    "center_freq": 133000000,
+                    "samp_rate": 2000000,
+                    "start_freq": 130,
+                    "start_mod": "am"
                 }
             }
         },
