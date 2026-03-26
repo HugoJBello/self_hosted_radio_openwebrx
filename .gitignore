@@ -1,7 +1,4 @@
 # OpenWebRX runtime data
-data/
-tmp/
-*.log
 
 # Python
 __pycache__/

@@ -1,0 +1,13 @@
+[
+    {
+        "user": "admin",
+        "enabled": true,
+        "must_change_password": false,
+        "password": {
+            "encoding": "hash",
+            "value": "574ca609d4829ff1615e1b1899bcd8f2dcaec8899505e7bf4671b932e97f4fe9",
+            "algorithm": "sha256",
+            "salt": "8f007df8e265aa10b9bc02ddd81c40b929c27492b8b8547cacb144d5f39af88e"
+        }
+    }
+]
