@@ -1,16 +1,19 @@
-version: "3.9"
+version: "3.8"
 
 services:
   openwebrx:
     image: jketterl/openwebrx:stable
     container_name: openwebrx
     restart: unless-stopped
+
+    ports:
+      - "8073:8073"
+
     devices:
       - /dev/bus/usb:/dev/bus/usb
-    ports:
-      - "127.0.0.1:8073:8073"
-    volumes:
-      - openwebrx-settings:/var/lib/openwebrx
 
-volumes:
-  openwebrx-settings:
+    volumes:
+      - ./data:/var/lib/openwebrx   # 🔥 aquí está la clave
+
+    environment:
+      - TZ=Europe/Madrid
