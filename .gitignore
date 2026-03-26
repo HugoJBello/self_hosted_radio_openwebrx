@@ -1,0 +1,13 @@
+# OpenWebRX runtime data
+data/
+tmp/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  openwebrx:
+    image: jketterl/openwebrx:stable
+    container_name: openwebrx
+    restart: unless-stopped
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    ports:
+      - "127.0.0.1:8073:8073"
+    volumes:
+      - openwebrx-settings:/var/lib/openwebrx
+
+volumes:
+  openwebrx-settings:
