@@ -28,3 +28,13 @@ docker exec -it openwebrx python3 /opt/openwebrx/openwebrx.py admin adduser admi
         proxy_buffering off;
     }
 
+
+
+# Direwolf comandos
+
+sudo apt update
+sudo apt install direwolf rtl-sdr
+
+## escaner packets
+
+rtl_fm -M fm -f 144.800M -s 22050 - | direwolf -t 0 -c /dev/null -r 22050 -D 1 -

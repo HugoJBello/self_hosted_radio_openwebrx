@@ -80,6 +80,14 @@
                     "samp_rate": 2000000,
                     "start_freq": 130,
                     "start_mod": "am"
+                },
+                "00b3475c-d012-4ff5-ae92-22a2a5ae7caf": {
+                    "name": "Pol",
+                    "rf_gain": "auto",
+                    "center_freq": 332000000,
+                    "samp_rate": 2000000,
+                    "start_freq": 330000000,
+                    "start_mod": "nfm"
                 }
             }
         },
